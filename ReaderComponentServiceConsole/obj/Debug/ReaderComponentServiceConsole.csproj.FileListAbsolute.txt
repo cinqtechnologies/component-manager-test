@@ -1,0 +1,12 @@
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.csprojResolveAssemblyReference.cache
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.exe.config
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.exe
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.pdb
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.exe
+C:\Users\e.carlos\Desktop\WcfServiceLibrary\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.pdb
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.exe.config
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.exe
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\bin\Debug\ReaderComponentServiceConsole.pdb
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.csprojResolveAssemblyReference.cache
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.exe
+C:\Users\e.carlos\Desktop\WcfServiceLibrary - Copy\ReaderComponentServiceConsole\obj\Debug\ReaderComponentServiceConsole.pdb
