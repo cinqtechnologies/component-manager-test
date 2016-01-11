@@ -9,7 +9,7 @@ namespace Component.PolarReader
 {
     public class AsynchronousSocketListener
     {
-        public void StartListening()
+        public async Task StartListening()
         {
             var listener = new TcpListener(IPAddress.Any, 11002);
 
@@ -19,7 +19,7 @@ namespace Component.PolarReader
 
                 while (true)
                 {
-                    AcceptClientsAsync(listener);
+                    await AcceptClientsAsync(listener);
                 }
             }
             catch (Exception e)
@@ -35,9 +35,7 @@ namespace Component.PolarReader
 
         async Task AcceptClientsAsync(TcpListener listener)
         {
-            var clientCounter = 0;
             TcpClient client = await listener.AcceptTcpClientAsync().ConfigureAwait(false);
-            clientCounter++;
             await ReceiveAsync(client);
         }
 

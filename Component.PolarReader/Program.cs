@@ -11,7 +11,9 @@ namespace Component.PolarReader
         static void Main(string[] args)
         {
             var listener = new AsynchronousSocketListener();
-            listener.StartListening();
+            Task.Run(() => listener.StartListening());
+            Console.WriteLine("Polar reader is running");
+            Console.Read();
         }
     }
 }

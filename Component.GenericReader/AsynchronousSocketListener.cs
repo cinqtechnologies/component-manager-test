@@ -9,7 +9,7 @@ namespace Component.GenericReader
 {
     public class AsynchronousSocketListener
     {
-        public void StartListening()
+        public async Task StartListening()
         {
             var listener = new TcpListener(IPAddress.Any, 11001);
 
@@ -19,7 +19,7 @@ namespace Component.GenericReader
 
                 while (true)
                 {
-                    AcceptClientsAsync(listener);
+                    await AcceptClientsAsync(listener);
                 }
             }
             catch (Exception e)
@@ -35,9 +35,7 @@ namespace Component.GenericReader
 
         async Task AcceptClientsAsync(TcpListener listener)
         {
-            var clientCounter = 0;
             TcpClient client = await listener.AcceptTcpClientAsync().ConfigureAwait(false);
-            clientCounter++;
             await ReceiveAsync(client);
         }
 

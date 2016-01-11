@@ -11,7 +11,9 @@ namespace Component.GenericReader
         static void Main(string[] args)
         {
             var listener = new AsynchronousSocketListener();
-            listener.StartListening();
+            Task.Run(() => listener.StartListening());
+            Console.WriteLine("Generic reader is running");
+            Console.Read();
         }
     }
 }
